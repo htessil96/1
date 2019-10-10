@@ -2,12 +2,12 @@
 oct 3,2019
 */
 var michi;
-var grace;
+//var grace;
 
 
 function preload (){
     michi = loadImage ("michi.jpg");
-    grace = loadImage ("grace.jpg");
+    //grace = loadImage ("grace.jpg");
 }
 
 function setup () {
@@ -20,29 +20,37 @@ function draw() {
     //fill('black');
     
     image(michi, 0, 0, width,height);
-    image(grace,mouseX,mouseY, 200,150 );
+    //image(grace,mouseX,mouseY, 200,150 );
      
     fill ("lightyellow");
     noStroke();
     rect (20,350,600,100);
     
     fill ("pink");
-    noStroke ();
+    noStroke();
     ellipse (70,390,250,250)
     
     fill("white");
+    stroke("yellow");
     strokeWeight (10);
     ellipse (70,390,200,200);
     
       fill("lightblue");
+    stroke("pink");
+    strokeWeight(10);
     textFont ("LibreBaskerville");
     textSize(150);
     text("G",60,330,50,200);
     
     fill("lightblue");
+    stroke('darkblue');
+    strokeWeight(7);
     textFont ("BreeSerif");
     textAlign (CENTER);
     textSize(50);
     text("Baby Clothes",50,380,600,100);
+    
+    
+    
     
 }
