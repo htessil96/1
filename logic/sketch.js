@@ -1,4 +1,4 @@
-/* logo version 1 
+/* Interactive meme (Logic) version 1 
 oct 3,2019
 */
 var michi;
@@ -51,7 +51,7 @@ function draw() {
         stroke("blue");
         strokeWeight(3);
         textFont("Cosmic Sans MS");
-        text ("turn up the heater",340, height/2,);
+        text ("turn on the heater",340, height/2,);
     
 }
 }
